@@ -1,0 +1,184 @@
+html {
+    font-family: "Montserrat", sans-serif;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+
+}
+
+body {
+    margin: 0;
+
+}
+
+header {
+    background-color: #02A28F;
+    color: white;
+    padding: .1rem 5rem;
+    text-align: left;
+}
+
+footer {
+    background-color: #02A28F;
+    color: white;
+    padding: ;
+    text-align: center;
+
+}
+
+footer > div > p {
+    padding: 0.5rem;
+    font-size: 1.2rem;
+}
+
+main {
+    padding: 2rem 5rem;
+  
+}
+
+h1 {
+    font-size: 1.5rem;
+    font-weight: 650;
+
+}
+
+h2 {
+    margin: 0;
+    padding: 0.2;
+    color: white;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+#img3 {
+    object-fit: cover;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    gap: .5rem;
+
+}
+
+.banner-article {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)), url(./img/background-img.png);
+    border-radius: .5rem;
+    width: 65%;
+    position: relative;
+    height: 50vh;
+    background-size: cover;
+  
+}
+
+.banner-article-info {
+    position: absolute;
+    bottom: 0.8rem;
+    margin-left: 2rem;
+    color: white;
+    
+}
+
+.text-banner-article {
+    color: white;
+    margin: 0 0;
+
+}
+
+.nav-bar {
+    background-color: #02A28F;
+    width: 65%;
+    color: white;
+    border-radius: 0.5rem;
+    padding: .1rem 2rem;
+    font-size: 0.8rem;
+    font-weight: 550;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+
+
+}
+
+.nav-bar > a {
+    color: white;
+    font-size: 0.2;
+    font-weight: 300;
+
+}
+
+
+.grid-posts {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Duas colunas fixas */
+    gap: 1rem;
+    box-sizing: border-box;
+    width: 65%;
+    margin-top: .5rem;
+    align-items: auto;
+
+}
+
+.green-text {
+    color: #02A28F;
+}
+
+.posts {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    text-align: left;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    object-fit: cover;
+    align-content: center;
+
+
+}
+
+.posts img {
+    width: 100%;
+    border-radius: 0.5rem;
+    margin-bottom: 0.75rem;
+    max-height: 31vh;
+    padding: 0 0 0 0 ;
+
+}
+
+.posts:hover {
+    transform: translateY(-5px); /* Eleva o card no hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Sombra mais forte no hover */
+
+}
+
+.title-posts-recents {
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+    color: #333;                  
+  }
+  
+.posts p {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 0.5rem;
+
+  }
+
+.side-bar-title {
+    background-color: #02A28F;
+    color: white;
+    padding: 1rem;
+    border-radius: .5rem;
+}
+
+
+ 
+
+  
+  
